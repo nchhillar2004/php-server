@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Create a server</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <h1>Create</h1>
+    <div class="main">
+        <div class="card">
+            <h2>Create a server</h2>
+            <form action="create.php" method="post" class="card">
+                <label for="server_name">Server name:</label>
+                <input type="text" name="server_name" required>
+                <label for="password">Password:</label>
+                <input type="password" name="password">
+                <button type="submit">Create</button>
+                <h3>or</h3>
+                <a href="join.php">Create</a>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
