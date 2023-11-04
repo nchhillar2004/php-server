@@ -2,7 +2,7 @@
 session_start();
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    $db = new PDO('mysql:host=localhost;dbname=mydb', 'root', '');
+    $db = new PDO('mysql:host=sql12.freesqldatabase.com;dbname=sql12659308', 'sql12659308', 'QWDk8EGEFg');
 
     $username = $_POST['username'];
     $password = password_hash($_POST['password'], PASSWORD_DEFAULT);
